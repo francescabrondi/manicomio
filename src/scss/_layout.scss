@@ -1,0 +1,98 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: $proxima-nova;
+    color: $xiketic;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7vw;
+    overflow-x: hidden;
+    background-color: $floral-white;
+    @include breakpoint-down(md) {
+        scroll-padding-top: 100px;
+    }
+}
+
+img {
+    object-fit: cover;
+}
+
+figure {
+    margin: 0;
+}
+
+.section {
+    margin: 10vw 5vw;
+}
+
+.main-cta {
+    @include btn-primary;
+    color: $floral-white;
+    display: initial;
+}
+.secondary-cta {
+    @include btn-secondary;
+    display: initial;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: $balboa;
+    font-weight: 900;
+    color: $xiketic;
+    padding-top: 50px;
+    margin-bottom: $font-size-base * 3;
+    @include breakpoint-down(giga) {
+        font-size: 80px;
+        margin-bottom: $font-size-base * 3;
+    }
+
+    @include breakpoint-down(sm) {
+        font-size: 40px;
+        margin-bottom: $font-size-base * 3;
+    }
+}
+h2 {
+    font-family: $balboa;
+    font-weight: 900;
+    font-size: 65px;
+    @include breakpoint-down(md) {
+        font-size: 40px;
+        margin-top: $font-size-base;
+    }
+}
+h3 {
+    font-family: $balboa;
+    font-weight: 900;
+    font-size: 32px;
+    @include breakpoint-down(md) {
+        font-size: 20px;
+    }
+}
+h4 {
+    font-family: $balboa;
+    font-weight: 700;
+    font-size: 20px;
+    @include breakpoint-down(md) {
+        font-size: 16px;
+    }
+}
+p {
+    font-family: $proxima-nova;
+    font-size: $font-size-base;
+}
+
+.desktop-only {
+    display: initial;
+    @include breakpoint-down(md) {
+        display: none;
+    }
+}
+
+.mobile-only {
+    display: none;
+    @include breakpoint-down(md) {
+        display: initial;
+    }
+}

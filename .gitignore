@@ -1,0 +1,8 @@
+dist/*
+
+.idea/*
+error_log
+# ignore generated stuff
+node_modules/
+# dist/
+
