@@ -39,6 +39,7 @@
 
 	<div class="page-content">
 		<?php include "inc/sections/hero.php" ?>
+		<?php include "inc/sections/cerimonia.php" ?>
 		
 </div>
 		
