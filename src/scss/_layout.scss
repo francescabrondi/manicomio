@@ -3,12 +3,12 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: $proxima-nova;
-    color: $xiketic;
+    font-family: $font;
+    color: $brand-black;
     scroll-behavior: smooth;
     scroll-padding-top: 7vw;
     overflow-x: hidden;
-    background-color: $floral-white;
+    background-color: $baby-powder;
     @include breakpoint-down(md) {
         scroll-padding-top: 100px;
     }
@@ -28,7 +28,7 @@ figure {
 
 .main-cta {
     @include btn-primary;
-    color: $floral-white;
+    color: $baby-powder;
     display: initial;
 }
 .secondary-cta {
@@ -38,9 +38,9 @@ figure {
 
 h1 {
     font-size: 120px;
-    font-family: $balboa;
+    font-family: $font;
     font-weight: 900;
-    color: $xiketic;
+    color: $brand-black;
     padding-top: 50px;
     margin-bottom: $font-size-base * 3;
     @include breakpoint-down(giga) {
@@ -54,7 +54,7 @@ h1 {
     }
 }
 h2 {
-    font-family: $balboa;
+    font-family: $font;
     font-weight: 900;
     font-size: 65px;
     @include breakpoint-down(md) {
@@ -63,7 +63,7 @@ h2 {
     }
 }
 h3 {
-    font-family: $balboa;
+    font-family: $font;
     font-weight: 900;
     font-size: 32px;
     @include breakpoint-down(md) {
@@ -71,7 +71,7 @@ h3 {
     }
 }
 h4 {
-    font-family: $balboa;
+    font-family: $font;
     font-weight: 700;
     font-size: 20px;
     @include breakpoint-down(md) {
@@ -79,7 +79,7 @@ h4 {
     }
 }
 p {
-    font-family: $proxima-nova;
+    font-family: $font;
     font-size: $font-size-base;
 }
 

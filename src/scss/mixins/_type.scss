@@ -41,7 +41,7 @@
         margin-bottom: 1em;
     }
     b {
-        color: $xiketic;
+        color: $brand-black;
     }
     @include breakpoint-up(md) {
         font-size: $font-size-copy;
