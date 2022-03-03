@@ -21,12 +21,12 @@
 							
 <nav class="site-navigation">
 	<ul>
-		<li><a href="#section-ristorante">Cerimonia</a></li>
-		<li><a href="#section-filiera">Festa</a></li>
-		<li><a href="#section-territorio">E&F Travel Agency</a></li>
-		<li><a href="#section-recensioni">Regali</a></li>
-		<li><a href="#section-prodotti">Foto</a></li>	
-		<li><a href="#section-visite" class="main-cta">RSVP</a></li>
+		<li><a href="#cerimonia">Cerimonia</a></li>
+		<li><a href="#festa">Festa</a></li>
+		<li><a href="#travel-agency">E&F Travel Agency</a></li>
+		<li><a href="#regali">Regali</a></li>
+		<li><a href="#foto">Foto</a></li>	
+		<li><a href="#rsvp" class="main-cta">RSVP</a></li>
 		
 		
 	</ul>
@@ -40,18 +40,18 @@
 	<div class="page-content">
 		<?php include "inc/sections/hero.php" ?>
 		<?php include "inc/sections/cerimonia.php" ?>
+		<?php include "inc/sections/festa.php" ?>
+		<?php include "inc/sections/travel-agency.php" ?>
+		<?php include "inc/sections/regali.php" ?>
+		<?php include "inc/sections/foto.php" ?>
+		<?php include "inc/sections/rsvp.php" ?>
 		
 </div>
 		
 
 	<footer class="page-footer">
-		<p class="titolo">Ristorante <br> Lampino</p>
-		<div class="page-footer-inner">
-			<p class="indirizzo"> Viale Risorgimento, 30,<br> 61041 Acqualagna (PU)</p>
-<p class="contatti">+39 0721798674 <br>
-info@ristorantelampino.it</p>
-		</div>
-		<p class="powered">Powered by <a href="https://deseip.com/" target="_blank">DEseip</a></p>
+		<img src="images/elefranz.svg" alt="" class="footer-img desktop-only">
+		<img src="images/ef.svg" alt="" class="footer-img mobile-only">
 	</footer>
 </div>
 

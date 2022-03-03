@@ -36,7 +36,7 @@
         width: 100vw;
         height: 100vh;
         padding: $font-size-base;
-        background-color: $baby-powder;
+        background-color: $forest-green-traditional;
         z-index: 3;
         transition: left 300ms ease;
         display: flex;
@@ -52,10 +52,16 @@
                 text-align: center;
                 a {
                     font-weight: bold;
-                    color: $forest-green-traditional;
+                    color: $baby-powder;
                     font-size: 32px;
                     font-family: $font;
                     text-transform: uppercase;
+                }
+                .main-cta {
+                    color: $baby-powder;
+                    border: none;
+                    background-color: transparent;
+                    box-shadow: none;
                 }
             }
         }
@@ -114,6 +120,7 @@
                 list-style: none;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 li {
                     display: inline-block;
                     padding: 0;
@@ -129,6 +136,12 @@
                             );
                             text-transform: none;
                         }
+                    }
+                    .main-cta {
+                        color: $forest-green-traditional;
+                        border: 1px solid $forest-green-traditional;
+                        background-color: transparent;
+                        box-shadow: 2px 4px rgba(0, 0, 0, 0.25);
                     }
                 }
             }

@@ -1,8 +1,19 @@
 <section class="section" id="regali">
-	<div class="section-inner">
-		<h2 class="section-title">Altra sezione pazzeschissima</h2>
+	<div class="section-inner sections">
+
+	<div class="section-image"><img src="images/regali.png" alt=""></div>
 		<div class="section-copy">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequatur deserunt, dignissimos doloribus dolorum earum eos exercitationem ipsum itaque iure, laudantium modi nemo numquam quo? Excepturi facere itaque soluta.</p>
+			<h2><img src="images/regali.svg" alt=""></h2>
+			<p> 
+			Volete farci un regalo?? Potete insegnare a Franz a ballare...Oppure potete fare un bonifico per aiutarci a costruire la nostra prossima casa (....vedi immagine) <br><br>
+
+IBAN:  <br>
+Intestatario: Eleonora Musicco <br>
+Causale: Regalo di Matrimonio di [vostro nome]
+
+
+</p>
 		</div>
+	
 	</div>
 </section>
