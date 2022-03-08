@@ -41,7 +41,7 @@
 		<?php include "inc/sections/hero.php" ?>
 		<?php include "inc/sections/cerimonia.php" ?>
 		<?php include "inc/sections/festa.php" ?>
-		<?php include "inc/sections/travel-agency.php" ?>
+		<?php include "inc/sections/agenzia.php" ?>
 		<?php include "inc/sections/regali.php" ?>
 		<?php include "inc/sections/foto.php" ?>
 		<?php include "inc/sections/rsvp.php" ?>

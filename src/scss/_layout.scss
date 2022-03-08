@@ -159,3 +159,55 @@ p {
 .footer-img {
     width: 100%;
 }
+
+.central-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    p {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .main-cta {
+        margin: 50px 0;
+    }
+    .separatore {
+        margin: 50px 0;
+    }
+}
+
+#agenzia {
+    margin: 5vw;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .down {
+        margin-top: 100px;
+    }
+    img:nth-child(11) {
+        grid-column-start: 3;
+    }
+    img {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+#foto {
+    .section-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .central-text {
+        p {
+            width: 50%;
+        }
+        margin-bottom: 100px;
+    }
+}

@@ -14,6 +14,6 @@ Causale: Regalo di Matrimonio di [vostro nome]
 
 </p>
 		</div>
-	
 	</div>
+	<div class="central-text"><img src="images/separatore.svg" alt="" class="separatore"></div>
 </section>

@@ -1,8 +1,21 @@
 <section class="section" id="foto">
 	<div class="section-inner">
-		<h2 class="section-title">Altra sezione pazzeschissima</h2>
-		<div class="section-copy">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequatur deserunt, dignissimos doloribus dolorum earum eos exercitationem ipsum itaque iure, laudantium modi nemo numquam quo? Excepturi facere itaque soluta.</p>
+		<div class="central-text">
+			<p>ah comunque siamo noi, Ele e Franz.
+Qualche foto per rinfrescarvi la memoria!</p>
+		</div>
+		<div class="gallery">
+			<img src="images/1.png" alt="">
+			<img src="images/2.png" alt="" class="down">
+			<img src="images/3.png" alt="">
+			<img src="images/4.png" alt="">
+			<img src="images/5.png" alt=""  class="down">
+			<img src="images/6.png" alt="">
+			<img src="images/7.png" alt="">
+			<img src="images/8.png" alt="" class="down">
+			<img src="images/9.png" alt="">
+			<img src="images/10.png" alt="">
+			<img src="images/11.png" alt="">
 		</div>
 	</div>
 </section>
