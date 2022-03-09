@@ -130,6 +130,25 @@ p {
             width: 100%;
         }
     }
+    @include breakpoint-down(md) {
+        flex-direction: column-reverse;
+        align-items: center;
+        .section-copy {
+            width: 100%;
+            align-self: flex-start;
+            p {
+                span {
+                    display: inline-block;
+                    width: 25px;
+                    height: auto;
+                }
+            }
+        }
+        .section-image {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
 }
 
 .sections {
@@ -199,7 +218,8 @@ p {
     }
 }
 
-#foto {
+#foto,
+#rsvp {
     .section-inner {
         flex-direction: column;
         align-items: center;
@@ -208,6 +228,42 @@ p {
         p {
             width: 50%;
         }
+        small {
+            font-size: 25px;
+        }
         margin-bottom: 100px;
+    }
+}
+
+#mc_embed_signup {
+    background: transparent !important;
+    width: 1000px !important;
+    .mc-field-group {
+        font-size: 20px;
+        label {
+            font-family: $font !important;
+        }
+        input {
+            background-color: transparent !important;
+            border-radius: 10px !important;
+            border: 1px solid $brand-black !important;
+        }
+        .button {
+            background-color: transparent !important;
+            color: $brand-black !important;
+            padding: $font-size-base * 0.75 $font-size-base * 3 !important;
+            font-weight: 700 !important;
+            font-size: 20px !important;
+            border-radius: 20px !important;
+            box-shadow: 2px 4px rgba(0, 0, 0, 0.25) !important;
+            border: 1px solid $brand-black !important;
+            transition: all 300ms $ease-out !important;
+            text-align: center !important;
+            text-decoration: none !important;
+            white-space: nowrap !important;
+            vertical-align: middle !important;
+            user-select: none !important;
+            text-transform: none !important;
+        }
     }
 }

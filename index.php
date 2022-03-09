@@ -43,9 +43,8 @@
 		<?php include "inc/sections/festa.php" ?>
 		<?php include "inc/sections/agenzia.php" ?>
 		<?php include "inc/sections/regali.php" ?>
-		<?php include "inc/sections/foto.php" ?>
 		<?php include "inc/sections/rsvp.php" ?>
-		
+		<?php include "inc/sections/foto.php" ?>
 </div>
 		
 
