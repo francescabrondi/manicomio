@@ -23,7 +23,7 @@
 	<ul>
 		<li><a href="#cerimonia">Cerimonia</a></li>
 		<li><a href="#festa">Festa</a></li>
-		<li><a href="#travel-agency">E&F Travel Agency</a></li>
+		<li><a href="#agenzia">E&F Travel Agency</a></li>
 		<li><a href="#regali">Regali</a></li>
 		<li><a href="#foto">Foto</a></li>	
 		<li><a href="#rsvp" class="main-cta">RSVP</a></li>

@@ -26,6 +26,6 @@ define('BASE_URL',url());
 define('LANG',"IT");
 define('GTM_CODE','');
 
-define('META_TITLE','Ristorante Lampino');
+define('META_TITLE','Ele&Franz');
 define('META_DESCRIPTION','');
-define('META_IMAGE',BASE_URL.'../images/favicon-lampino.png');
+define('META_IMAGE',BASE_URL.'../images/favicon.png');

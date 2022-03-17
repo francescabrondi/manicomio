@@ -21,7 +21,7 @@ if(BOOL_DEVELMODE && isLocalhost()) {
 
 
 
-<link rel="icon" sizes="57x57" href="images/favicon-lampino.png">
+<link rel="icon" sizes="57x57" href="images/favicon.png">
 <!-- <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
@@ -39,11 +39,11 @@ if(BOOL_DEVELMODE && isLocalhost()) {
 <meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff"> -->
 
-<meta property="og:title" content="Ristorante Lampino" />
-  <meta property="og:url" content="http://www.deseip.com/lampino" />
-  <meta property="og:image" content="images/logo-lampino.png" />
+<meta property="og:title" content="Ele & Franz" />
+  <!-- <meta property="og:url" content="http://www.deseip.com/lampino" />
+  <meta property="og:image" content="images/logo-lampino.png" /> -->
   <meta property="og:description" content="" />
-  <meta property="og:site_name" content="Ristorante Lampino" />
+  <meta property="og:site_name" content="Ele & Franz" />
 
 
 

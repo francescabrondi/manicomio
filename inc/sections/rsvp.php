@@ -92,6 +92,7 @@ $.extend($.validator.messages, {
 <!--End mc_embed_signup-->
 	</div>
 	</div>
+	<div class="central-text"><img src="images/separatore.svg" alt="" class="separatore"></div>
 </section>
 
 

@@ -45,7 +45,7 @@ h1 {
         margin-bottom: $font-size-base * 3;
     }
 
-    @include breakpoint-down(sm) {
+    @include breakpoint-down(md) {
         font-size: 40px;
         margin-bottom: $font-size-base * 3;
     }
@@ -80,6 +80,9 @@ p {
     font-family: $font;
     font-size: 25px;
     line-height: 30px;
+    @include breakpoint-down(md) {
+        font-size: 16px;
+    }
 }
 
 .desktop-only {
@@ -167,11 +170,34 @@ p {
             width: 100%;
         }
     }
+    @include breakpoint-down(md) {
+        .section-copy {
+            width: 100%;
+            align-self: center;
+            p {
+                text-align: center;
+            }
+        }
+        .section-image {
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 .reversed {
     .section-image {
         margin-right: -5vw;
         margin-left: 0;
+    }
+    @include breakpoint-down(md) {
+        .section-image {
+            margin-right: 0;
+            margin-left: 0;
+        }
     }
 }
 
