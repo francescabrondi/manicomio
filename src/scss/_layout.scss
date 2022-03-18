@@ -24,6 +24,9 @@ figure {
 
 .section {
     margin: 10vw 5vw;
+    @include breakpoint-down(md) {
+        margin: 13vh 5vw;
+    }
 }
 
 .main-cta {
@@ -58,6 +61,7 @@ h2 {
     @include breakpoint-down(md) {
         font-size: 40px;
         margin-top: $font-size-base;
+        text-align: center;
     }
 }
 h3 {
@@ -82,6 +86,7 @@ p {
     line-height: 30px;
     @include breakpoint-down(md) {
         font-size: 16px;
+        line-height: 25px;
     }
 }
 
@@ -113,15 +118,24 @@ p {
                 display: inline-block;
                 width: 25px;
                 height: auto;
+                @include breakpoint-down(md) {
+                    width: 20px;
+                }
                 img {
                     width: 100%;
                     height: 100%;
                     margin-bottom: 20px;
+                    @include breakpoint-down(md) {
+                        margin-bottom: 0px;
+                    }
                 }
                 .rotate {
                     transform: rotate(180deg);
                     margin-bottom: 0;
                     margin-top: 20px;
+                    @include breakpoint-down(md) {
+                        margin-top: 0px;
+                    }
                 }
             }
         }
@@ -180,8 +194,8 @@ p {
         }
         .section-image {
             width: 100%;
-            margin-right: 0;
-            margin-left: 0;
+            margin-right: -5vw;
+            margin-left: -5vw;
             img {
                 width: 100%;
             }
@@ -194,9 +208,10 @@ p {
         margin-left: 0;
     }
     @include breakpoint-down(md) {
+        flex-direction: column;
         .section-image {
-            margin-right: 0;
-            margin-left: 0;
+            margin-right: -5vw;
+            margin-left: -5vw;
         }
     }
 }
@@ -215,6 +230,9 @@ p {
         font-size: 35px;
         font-weight: 700;
         line-height: 40px;
+        @include breakpoint-down(md) {
+            font-size: 20px;
+        }
     }
     .main-cta {
         margin: 50px 0;
@@ -242,6 +260,15 @@ p {
         margin: 0 auto;
         width: 100%;
     }
+    @include breakpoint-down(md) {
+        grid-template-columns: 1fr 1fr;
+        .down {
+            margin-top: 0;
+        }
+        img:nth-child(11) {
+            grid-column-start: 1;
+        }
+    }
 }
 
 #foto,
@@ -253,9 +280,16 @@ p {
     .central-text {
         p {
             width: 50%;
+            @include breakpoint-down(md) {
+                width: 100%;
+            }
         }
         small {
             font-size: 25px;
+            @include breakpoint-down(md) {
+                font-size: 14px;
+                text-align: center;
+            }
         }
         margin-bottom: 100px;
     }
@@ -291,5 +325,29 @@ p {
             user-select: none !important;
             text-transform: none !important;
         }
+    }
+    @include breakpoint-down(md) {
+        width: 100% !important;
+        .mc-field-group {
+            margin: 10px 0 !important;
+        }
+    }
+}
+
+.ctas {
+    @include breakpoint-down(md) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .main-cta {
+            margin-top: 10px;
+        }
+    }
+}
+
+.main-cta {
+    @include breakpoint-down(md) {
+        white-space: normal;
+        line-height: 25px;
     }
 }

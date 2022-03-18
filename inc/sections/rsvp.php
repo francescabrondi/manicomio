@@ -18,32 +18,32 @@
     <div id="mc_embed_signup_scroll">
 	
 <div class="indicates-required"><span class="asterisk">*</span> Campi obbligatori</div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-FNAME">Nome  <span class="asterisk">*</span>
 </label>
 	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
 </div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-LNAME">Cognome  <span class="asterisk">*</span>
 </label>
 	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
 </div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-MMERGE3">Nome compagno/a  <span class="asterisk">*</span>
 </label>
 	<input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3">
 </div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-MMERGE4">Cognome compagno/a  <span class="asterisk">*</span>
 </label>
 	<input type="text" value="" name="MMERGE4" class="required" id="mce-MMERGE4">
 </div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-EMAIL">Indirizzo mail  <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
-<div class="mc-field-group size1of2">
+<div class="mc-field-group  ">
 	<label for="mce-MMERGE5">Quanti figli hai da 9 anni in su?  <span class="asterisk">*</span>
 </label>
 	<input type="number" name="MMERGE5" class="required" value="" id="mce-MMERGE5">
@@ -66,7 +66,7 @@
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[5]='MMERGE5';ftypes[5]='number';fnames[6]='MMERGE6';ftypes[6]='number'; /*
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[5]='MMERGE5';ftypes[5]='number';fnames[6]='MMERGE6';ftypes[6]='text'; /*
  * Translated default messages for the $ validation plugin.
  * Locale: IT
  */
