@@ -12,7 +12,7 @@ Attorno al Santuario troverete molto posto per parcheggiare (e una vista pazzesc
 
 </p>
 <br><br>
-<a href="" class="main-cta">vai al Santuario</a>
+<a href="https://goo.gl/maps/kCHYyUq5iePPSq4x5" class="main-cta" target="_blank">vai al Santuario</a>
 		</div>
 	
 	</div>

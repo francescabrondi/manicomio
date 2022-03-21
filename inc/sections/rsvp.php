@@ -49,9 +49,14 @@
 	<input type="number" name="MMERGE5" class="required" value="" id="mce-MMERGE5">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE6">Allergie??  <span class="asterisk">*</span>
-</label>
-	<input type="text" name="MMERGE6" class="required" value="" id="mce-MMERGE6">
+	<label for="mce-MMERGE3">Allergie?? </label>
+	<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+</div>
+<div class="mc-field-group input-group">
+    <strong>Preferisci un menù vegetariano o vegano? </strong>
+    <ul><li><input type="radio" value="Sì, vegetariano" name="MMERGE6" id="mce-MMERGE6-0"><label for="mce-MMERGE6-0">Sì, vegetariano</label></li>
+<li><input type="radio" value="Sì, vegano" name="MMERGE6" id="mce-MMERGE6-1"><label for="mce-MMERGE6-1">Sì, vegano</label></li>
+</ul>
 </div>
 	<div id="mce-responses" class="clear foot">
 		<div class="response" id="mce-error-response" style="display:none"></div>
@@ -66,7 +71,7 @@
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[5]='MMERGE5';ftypes[5]='number';fnames[6]='MMERGE6';ftypes[6]='text'; /*
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[5]='MMERGE5';ftypes[5]='number';fnames[3]='MMERGE3';ftypes[3]='text';fnames[6]='MMERGE6';ftypes[6]='radio'; /*
  * Translated default messages for the $ validation plugin.
  * Locale: IT
  */

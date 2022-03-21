@@ -13,8 +13,8 @@ NB. per tutte le signore: in questo posto ci sono sassolini per terra, poco adat
 </p>
 <br><br>
 <div class="ctas">
-	<a href="" class="main-cta">RSVP</a>
-	<a href="" class="main-cta">vai alla festa</a>
+	<a href="#rsvp" class="main-cta">RSVP</a>
+	<a href="https://goo.gl/maps/SH4K2c7crL2XLo9M6" class="main-cta" target="_blank">vai alla festa</a>
 </div>
 		</div>
 		<div class="section-image"><img src="images/festa.png" alt=""></div>

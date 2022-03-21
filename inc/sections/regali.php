@@ -7,7 +7,7 @@
 			<p> 
 			Volete farci un regalo?? Potete insegnare a Franz a ballare...Oppure potete fare un bonifico per aiutarci a costruire la nostra prossima casa (....vedi immagine) <br><br>
 
-IBAN:  <br>
+IBAN: IT25Q0503401753000000074976 <br>
 Intestatario: Eleonora Musicco <br>
 Causale: Regalo di Matrimonio di [vostro nome]
 
